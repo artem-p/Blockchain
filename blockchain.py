@@ -48,3 +48,8 @@ class Blockchain(object):
         })
 
         return self.last_block['index'] + 1
+
+    
+    @property
+    def last_block(self):
+        return self.chain[-1]
