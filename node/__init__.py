@@ -1,5 +1,7 @@
 # instantiate the node
 from flask import Flask
+from uuid import uuid4
+from blockchain import Blockchain
 
 app = Flask(__name__)
 
